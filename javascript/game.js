@@ -33,15 +33,28 @@ function shuffle(timesShufflfed) {
 
 playersList = new Array();
 
-function players(numOfPlayers) {
+function players() {
     var player1 =  document.getElementById('user1').value;
     var player2 =  document.getElementById('user2').value;
     var player3 =  document.getElementById('user3').value;
     var player4 =  document.getElementById('user4').value;
-    playersList = {User1: player1, User2: player2, User3: player3, User4: player4}
-    console.log(playersList);
+    if( player1 != "" || player2 != "" || player3 != "" || player4 != "") {
 
+        playersList.push(player1)
+        playersList.push(player2)
+        playersList.push(player3)
+        playersList.push(player4)
+        console.log(playersList)
+    }
+    console.log("User1: "+ player1)
+    console.log("User2: "+ player2)
+    console.log("User3: "+ player3)
+    console.log("User4: "+ player4)
 }
+
+// function deal(num) {
+//     player1
+// }
 
 
 createDeck();
