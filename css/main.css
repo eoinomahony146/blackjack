@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+      background-image: url("../images/flyingcards.png");
+      height:100%;
+      background-position: center;
+      background-repeat: repeat;
+      font-family: 'Jockey One', sans-serif;
+      background-size: 500px;
+    }
+    
+    h1 {
+       color:#b8061a;
+       font-family: 'Jockey One', sans-serif;
+       margin: 0 auto;
+       text-align: center;
+       text-shadow: 2px 2px black;
+       border-color: black;
+       border-style: solid;
+       border-width: thin;
+    
+    }
+  
+    input[type=submit]:hover,input[type=button]:hover {
+      background-color: #b8061a;
+      color: white;
+    }
+   
